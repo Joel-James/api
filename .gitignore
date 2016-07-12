@@ -1,4 +1,5 @@
 /bootstrap/cache
+/config
 /node_modules
 /nbproject
 Homestead.yaml
