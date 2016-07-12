@@ -1,0 +1,6 @@
+/bootstrap/cache
+/node_modules
+/nbproject
+Homestead.yaml
+Homestead.json
+.php_cs.cache

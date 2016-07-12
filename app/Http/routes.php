@@ -1,0 +1,21 @@
+<?php
+
+/*
+|--------------------------------------------------------------------------
+| Application Routes
+|--------------------------------------------------------------------------
+|
+| Here is where you can register all of the routes for an application.
+| It's a breeze. Simply tell Laravel the URIs it should respond to
+| and give it the controller to call when that URI is requested.
+|
+*/
+
+// Default page
+Route::get('/', 'Frog\FrogController@index');
+
+// Mailer
+Route::get('mailer', 'Mailer\MailerController@getMails');
+
+// Currency converter API
+Route::get('currency', 'Currency\CurrencyConverterController@convertCurrency');
